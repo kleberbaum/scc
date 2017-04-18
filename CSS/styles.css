@@ -1,0 +1,83 @@
+/* CSS-Datei */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    min-width: 804px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Noto Sans';
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+article {
+}
+
+header {
+    min-height: 100vh;
+}
+
+section {
+    min-height: 100vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 0.6em;
+    color: white;
+}
+
+h2 {
+    font-family: 'Noto Sans';
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 0.6em;
+    color: white;
+}
+
+h3 {
+    font-family: 'Noto Sans';
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+.glhf{
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(2, start);
+}
+
+@keyframes blink {
+    80% {
+        visibility: hidden;
+    }
+}
